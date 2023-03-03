@@ -5,5 +5,5 @@ buttonLike.addEventListener("click", handleClick);
 
 function handleClick() {
     likes += 1;
-    buttonLike.textContent = 'Likes $""';
+    buttonLike.textContent = 'Likes';
 }
